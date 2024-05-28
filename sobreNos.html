@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="imagens/favicon04.ico" type="image/x-icon" />
+    <title>Somos-Ticket Online</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="css/footer.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/sobreNos.css" />
+    <link rel="stylesheet" href="index2.html" />
+    <link href="css/buttontop.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+    <div id="cabecalho">
+        <div>
+            <a><span>contato@ticket_online.co.ao</span></a>
+            <a><span>(+244) 222 010 916</span></a>
+        </div>
+
+        <div>
+            <a href="login.html">Login</a>
+            <a href="registrar.html">Cadastrar-se</a>
+        </div>
+    </div>
+
+
+
+    <div class="navbar">
+        <div class="header-inner-content">
+            <h1 class="logo">ticket<span>ONLINE</span></h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="index.html">Destaques</a></li>
+                    <li><a href="index2.html">Eventos</a></li>
+                    <li><a href="promotores.html">Promotores</a></li>
+                </ul>
+            </nav>
+            <div class="nav-icon-container">
+                <img src="/imagens/car02.png" alt="" />
+                <button class="menu-button" style="border: none;background-color: transparent;">
+                    <img src="/imagens/menu.png" alt="" />
+                </button>
+
+            </div>
+        </div>
+    </div>
+
+    <main>
+
+
+        <div>
+            <h2>
+                Quem Somos ??
+            </h2>
+        </div>
+
+        
+        <h1>Ticket Online  é uma plataforma completa para compra e venda de ingressos on-line em Angola.</h1>
+
+        <h3>Ticket Online é uma marca registada cujos direitos são detidos pela empresa ADELAC, LDA com o NIF 5**1 1** 7*8.</h3>
+
+       
+        <p>Um site com tudo o que precisa para descobrir eventos e comprar o seu ingresso on-line, de forma rápida e segura, disponível 24 horas por dia.
+
+            Quer mais informações?
+            
+            Solicite via e-mail: oficial@online_ticket.co.ao
+        </p>
+        <div class="subtitle-underline"></div>
+
+        <section class="event-list">
+
+        </section>
+
+        <a class="gotopbtn" href="#"> <i class="fas fa-arrow-up"></i> </a>
+
+        <footer>
+            <div id="footer_content">
+                <div id="footer_contacts">
+                    <h1 class="logo">ticket<span>ONLINE</span></h1>
+
+                    <div id="footer_social_media">
+                        <a href="#" class="footer-link" id="instagram">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                        <a href="#" class="footer-link" id="facebook">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="footer-link" id="whatsapp">
+                            <i class="fa-brands fa-whatsapp"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <ul class="footer-list">
+                    <li>
+                        <h3>Empresa</h3>
+                    </li>
+                    <li>
+                        <a href="#" class="footer-link">Quem Somos</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer-link">Termos e condições</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer-link">Direitos e Privacidade</a>
+                    </li>
+                </ul>
+
+                <ul class="footer-list">
+                    <li>
+                        <h3>Atendimento</h3>
+                    </li>
+                    <li>
+                        <i class="fa fa-location"></i>
+                        <a href="#" class="footer-link">Rua-42 B13, Av-21 Janeiro <br>Luanda | Angola</a>
+                    </li>
+                    <li>
+                        <i class="fa fa-phone"></i>
+                        <a href="#" class="footer-link">+244 912 345 678</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer-link">oficial@online_ticket.co.ao</a>
+                    </li>
+                </ul>
+
+                <div id="footer_subscribe">
+                    <h3>Subscreva</h3>
+                    <p>Digite seu e-mail para ser notificado sobre nossas ofertas exclusivas.</p>
+                    <div id="input_group">
+                        <input type="email" id="email">
+                        <button>
+                            <i class="fa-regular fa-envelope"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div id="footer_copyright">
+                &#169 2024 - Ticket Online | Todos os direitos reservados
+            </div>
+        </footer>
+    </main>
+
+    <script>
+        const navbar = document.querySelector(".navbar");
+        const menuButton = document.querySelector(".menu-button");
+
+        menuButton.addEventListener("click", () => {
+            navbar.classList.toggle("show-menu");
+        });
+    </script>
+</body>
+
+</html>

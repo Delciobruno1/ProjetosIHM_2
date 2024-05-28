@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&display=swap');
+* {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    letter-spacing: 1px;
+}
+
+
+#logotipo {
+    width: 168px;
+}
+
+#cabecalho {
+    display: flex;
+    justify-content: space-between;
+    background-color: #18243b;
+    margin-bottom: auto;
+    padding: 10px;
+    font-size: 14px;
+}
+
+body{
+    ;
+}
+
+
+
+#cabecalho div a {
+    color: white;
+    margin-right: 10px;
+}
+
+#cabecalho2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+ 
+#menu{
+    margin-right: 10px;
+}
+#menu li {
+ 
+    display: flex;
+    display: inline;
+    margin: 0px 10px ;
+    font-size: 16px;
+}
+
+#form input
+{
+  padding: 7px;
+  border-radius: 4px;
+}
+
+#form button
+{
+  padding: 7px;
+  border-radius: 4px;
+}
+
+#menu ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+#menu ul li a:hover {
+    border-bottom: 2px solid #1e8fcd;
+}
+
+header,
+footer {
+    background-color: #040404;
+    box-shadow: 0px 3px 10px #464646;
+    color: #fff;
+    padding: 10px auto;
+}
+
+
+.left-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+@media (max-width:900px)
+{ 
+    #cabecalho2{
+        height: 183px;
+    }
+
+    #menu{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        align-self: center;
+        justify-self: center;
+        margin-left: 10px;
+    }
+
+    #cabecalho2 form{
+        margin-left: 15px;
+    }
+
+    #menu li {
+ 
+    display: flex;
+    display: inline;
+    margin: 0px 10px ;
+    font-size: 15px;
+}
+
+}
+
+
